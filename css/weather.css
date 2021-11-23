@@ -1,0 +1,21 @@
+.weather-box {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  right: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+#weather {
+  font-size: 20px;
+  display: flex;
+  position: fixed;
+  top: 0px;
+}
+#weather span:last-child {
+  position: relative;
+  margin-left: 20px;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
